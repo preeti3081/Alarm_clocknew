@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(#B1E4ED,#E8AED9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+img{
+    margin-top: -18px;
+    height: 30px;
+    width: 30px;
+    
+}
+h1{
+    display: inline-block;
+    
+}
+#clock-container{
+    background-color: honeydew;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+    align-items: center;
+    font-size: 23px;
+    padding: 3px;
+    text-align: center;
+}
+#current{
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+}
+.inputs input,select{
+    height: 35px;
+    width: 60px;
+}
